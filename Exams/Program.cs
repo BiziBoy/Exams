@@ -24,7 +24,15 @@ namespace Exams
         }
         else
         {
-          Console.WriteLine("YES");
+          if (A % 2 == 0 && B % 2 == 0 || A % 2 == 1 && B % 2 == 1)
+          {
+            Console.WriteLine("YES");
+          }
+          else
+          {
+            Console.WriteLine("NO");
+          }
+          
         }
       }
     }
